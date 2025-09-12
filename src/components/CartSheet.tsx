@@ -7,6 +7,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { ShoppingCart, Trash2, Copy, Check } from 'lucide-react';
 import { useCart } from '@/hooks/useCart';
 import { useToast } from '@/hooks/use-toast';
+import { validateExternalLink, validateDiscordInvite, validateInstagramHandle } from '@/lib/security';
 
 interface CartSheetProps {
   region: 'us' | 'middleeast';
@@ -201,7 +202,7 @@ const CartSheet = ({ region }: CartSheetProps) => {
                   <p className="text-sm text-muted-foreground">
                     🚀 <strong>For faster results:</strong> Join our{' '}
                     <a 
-                      href="https://discord.gg/tpTrTHGphY" 
+                      href={validateExternalLink("https://discord.gg/tpTrTHGphY").sanitizedUrl}
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-primary hover:underline font-medium"
