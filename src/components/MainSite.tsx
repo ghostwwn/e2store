@@ -81,7 +81,7 @@ const MainSite = ({ region }: MainSiteProps) => {
       name: 'Xbox Game Pass Ultimate (3 Months)',
       description: 'Premium gaming subscription service',
       price: '30',
-      originalPrice: '45',
+      originalPrice: '60',
       icon: '🎮',
       features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming']
     },
@@ -89,7 +89,7 @@ const MainSite = ({ region }: MainSiteProps) => {
       name: 'Xbox Game Pass Ultimate (6 Months)',
       description: 'Premium gaming subscription service',
       price: '60',
-      originalPrice: '90',
+      originalPrice: '120',
       icon: '🎮',
       features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming'],
       popular: true
@@ -98,7 +98,7 @@ const MainSite = ({ region }: MainSiteProps) => {
       name: 'Xbox Game Pass Ultimate (12 Months)',
       description: 'Premium gaming subscription service',
       price: '120',
-      originalPrice: '180',
+      originalPrice: '240',
       icon: '🎮',
       features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming']
     }
