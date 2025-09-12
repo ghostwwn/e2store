@@ -1,0 +1,8 @@
+# Redirect all routes to index.html for SPA routing
+/*    /index.html   200
+
+# Security redirects - block access to sensitive files
+/.env*  /404.html  404
+/config/*  /404.html  404
+/.git/*  /404.html  404
+/node_modules/*  /404.html  404
