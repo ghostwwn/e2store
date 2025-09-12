@@ -199,7 +199,16 @@ const CartSheet = ({ region }: CartSheetProps) => {
                     📧 After payment, contact us on Instagram <strong>@{region === 'us' ? 'e2srv.us' : 'e2srv'}</strong> with your order details and payment confirmation for service activation.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    🚀 <strong>For faster results:</strong> Join our Discord server and open a support ticket with your payment proof!
+                    🚀 <strong>For faster results:</strong> Join our{' '}
+                    <a 
+                      href="https://discord.gg/tpTrTHGphY" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline font-medium"
+                    >
+                      Discord server
+                    </a>{' '}
+                    and open a support ticket with your payment proof!
                   </p>
                 </div>
 
