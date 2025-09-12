@@ -79,28 +79,28 @@ const MainSite = ({ region }: MainSiteProps) => {
     },
     {
       name: 'Xbox Game Pass Ultimate (3 Months)',
-      description: 'Gaming subscription with Xbox Live Gold',
+      description: 'Premium gaming subscription service',
       price: '30',
       originalPrice: '45',
       icon: '🎮',
-      features: ['100+ games', 'Xbox Live Gold', 'PC & Console', 'Cloud gaming']
+      features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming']
     },
     {
       name: 'Xbox Game Pass Ultimate (6 Months)',
-      description: 'Gaming subscription with Xbox Live Gold',
+      description: 'Premium gaming subscription service',
       price: '60',
       originalPrice: '90',
       icon: '🎮',
-      features: ['100+ games', 'Xbox Live Gold', 'PC & Console', 'Cloud gaming'],
+      features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming'],
       popular: true
     },
     {
       name: 'Xbox Game Pass Ultimate (12 Months)',
-      description: 'Gaming subscription with Xbox Live Gold',
+      description: 'Premium gaming subscription service',
       price: '120',
       originalPrice: '180',
       icon: '🎮',
-      features: ['100+ games', 'Xbox Live Gold', 'PC & Console', 'Cloud gaming']
+      features: ['100+ games', 'Online multiplayer', 'PC & Console', 'Cloud gaming']
     }
   ] : [
     {
