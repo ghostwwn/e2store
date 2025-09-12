@@ -195,8 +195,11 @@ const CartSheet = ({ region }: CartSheetProps) => {
 
                 {/* Instructions - Always visible */}
                 <div className="bg-muted/50 p-3 rounded-lg mb-3">
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground mb-2">
                     📧 After payment, contact us on Instagram <strong>@{region === 'us' ? 'e2srv.us' : 'e2srv'}</strong> with your order details and payment confirmation for service activation.
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    🚀 <strong>For faster results:</strong> Join our Discord server and open a support ticket with your payment proof!
                   </p>
                 </div>
 
